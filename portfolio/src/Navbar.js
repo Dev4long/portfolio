@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className= "navbar">
     <div className="container">
-        <h1>Denis Kadrich</h1>
+        <h1 className="name">DENIS KADRICH</h1>
 
         <div className="menu">
             <Link className="links" to="/">About</Link>
@@ -15,11 +15,11 @@ function Navbar() {
             <Link className="links" to="/contact">Contact</Link>
         </div>
 
-        <button class="burger">
+        {/* <button class="burger">
             <span></span>
             <span></span>
             <span></span>
-        </button>
+        </button> */}
 
     </div>
     </div>
