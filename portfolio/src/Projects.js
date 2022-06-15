@@ -4,12 +4,9 @@ import './projects.css'
 
 function Projects() {
   return (
-    <div classname="projectContainer">
+    <div className="projectContainer">
       Projects
-      getElementByIdertwghrsthb
-      ergherthnertyhneryt
-      erhbe5jetyrn
-      
+   
     </div>
   )
 }
