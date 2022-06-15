@@ -45,7 +45,7 @@ menu a.is-active, .menu a:hover {
     border-bottom: 3px solid rgb(0, 252, 4);
 }
 
-.burger {
+/* .burger {
     display: block;
     position: relative;
     z-index: 1;
@@ -72,7 +72,7 @@ menu a.is-active, .menu a:hover {
 
     transform-origin: 0 0;
     transition: 0.4s;
-}
+} */
 
 .burger:hover span:nth-child(2) {
     transform: translateX(10px);
