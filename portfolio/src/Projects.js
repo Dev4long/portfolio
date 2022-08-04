@@ -1,6 +1,7 @@
 import React from 'react'
 import './projects.css'
 import UrbanRider from "./ProjectPics/UrbanRider.png"
+import TheaterPic from "./ProjectPics/theaterPic.webp"
 
 
 function Projects() {
@@ -11,12 +12,16 @@ function Projects() {
       <div className="d1 row border first">
         
         <div className="front">
-          heys nsdoFVPIUEWRBNGPIUEWRTNBIUPNERWTIONBOITRWNBI[ONETOINBN
-          EFNQEROIUVBPIUQERBUVIPNERIPN]
+        <img className="urbanRiderPic" src={UrbanRider} alt="blackjack"/>
         </div>
         
         <div className="back">
-        <img className="urbanRiderPic" src={UrbanRider} alt="blackjack"/>
+         <img className="theaterPic" src={TheaterPic} alt="theater"/>
+         <h4 className = "projectTitle">Urban Riderz</h4>
+         <div className="linkContainer">
+         <a className="frontend" href="https://github.com/Dev4long/urban-riderz-frontend">Frontend Code</a>
+         <a className="backend" href="https://github.com/Dev4long/urban-riderz-backend">Backend Code</a>
+         </div>
         </div>
 
       </div>
