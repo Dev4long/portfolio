@@ -3,6 +3,8 @@ import './projects.css'
 import UrbanRider from "./ProjectPics/UrbanRider.png"
 import TheaterPic from "./ProjectPics/theaterPic.webp"
 import EatLiftPray from "./ProjectPics/eatLiftPray.png"
+import WhatsThat from "./ProjectPics/whatsThat.png"
+import BlackJack from "./ProjectPics/BlackJack.png"
 
 
 function Projects() {
@@ -46,9 +48,39 @@ function Projects() {
         </div>
       </div>
    
-      <div className="d3 row"></div>
+      <div className="d3 row">
+
+      <div className="front">
+        <img className="WhatsThatPic" src={WhatsThat} alt="whatsthat"/>
+        </div>
+        
+        <div className="back">
+         <img className="theaterPic" src={TheaterPic} alt="theater"/>
+         <h4 className = "projectTitle">WhatsThat</h4>
+         <div className="linkContainer">
+         <a className="frontend" href="https://github.com/Dev4long/whats-app">Frontend Code</a>
+         <a className="backend" href="https://github.com/Dev4long/whats-app-backend">Backend Code</a>
+         <a className="demo" href="https://www.loom.com/share/022039009cbd4b45b87aa503dae6f210">Demo Video</a>
+         </div>
+        </div>
+
+      </div>
   
-      <div className="d4 row"></div>
+      <div className="d4 row">
+
+      <div className="front">
+        <img className="BlackJackPic" src={BlackJack} alt="blackjack"/>
+        </div>
+        
+        <div className="back">
+         <img className="theaterPic" src={TheaterPic} alt="theater"/>
+         <h4 className = "projectTitle">BlackJack</h4>
+         <div className="linkContainer">
+         <a className="frontend" href="https://github.com/Dev4long/BlackJack-project">Frontend Code</a>
+         </div>
+        </div>
+
+      </div>
       
       {/* <div className="projectImage"></div>
       <div className="projectImage"></div>

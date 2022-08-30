@@ -34,6 +34,13 @@
 .d2:hover  {
  transform: rotateY(180deg);
     } 
+.d3:hover  {
+ transform: rotateY(180deg);
+    } 
+       
+.d4:hover  {
+ transform: rotateY(180deg);
+    } 
         
     
 .d1 {
@@ -67,7 +74,7 @@
     /* border-radius: 100%; */
 }
 
-.urbanRiderPic, .EatLiftPrayPic{
+.urbanRiderPic, .EatLiftPrayPic, .BlackJackPic, .WhatsThatPic{
     border-radius: 100%;
     width:100%;
     height: 100%;
