@@ -2,6 +2,7 @@ import React from 'react'
 import './projects.css'
 import UrbanRider from "./ProjectPics/UrbanRider.png"
 import TheaterPic from "./ProjectPics/theaterPic.webp"
+import EatLiftPray from "./ProjectPics/eatLiftPray.png"
 
 
 function Projects() {
@@ -12,7 +13,7 @@ function Projects() {
       <div className="d1 row border first">
         
         <div className="front">
-        <img className="urbanRiderPic" src={UrbanRider} alt="blackjack"/>
+        <img className="urbanRiderPic" src={UrbanRider} alt="urbanRider"/>
         </div>
         
         <div className="back">
@@ -21,6 +22,7 @@ function Projects() {
          <div className="linkContainer">
          <a className="frontend" href="https://github.com/Dev4long/urban-riderz-frontend">Frontend Code</a>
          <a className="backend" href="https://github.com/Dev4long/urban-riderz-backend">Backend Code</a>
+         <a className="demo" href="https://www.loom.com/share/961cb7d31ce749c59a6b3f273aaaf437d">Demo Video</a>
          </div>
         </div>
 
@@ -30,13 +32,17 @@ function Projects() {
      
       <div className="d2 row">
         <div className="front">
-          heys nsdoFVPIUEWRBNGPIUEWRTNBIUPNERWTIONBOITRWNBI[ONETOINBN
-          EFNQEROIUVBPIUQERBUVIPNERIPN]
+        <img className="EatLiftPrayPic" src={EatLiftPray} alt="eatLiftPray"/>
         </div>
         
         <div className="back">
-          yehiuebiuwebiu
-        <img src="https://images.unsplash.com/photo-1588611845066-f56f220559e9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2534&q=80" alt="Eat lift prey"/>
+         <img className="theaterPic" src={TheaterPic} alt="theater"/>
+         <h4 className = "projectTitle">Eat Lift Pray</h4>
+         <div className="linkContainer">
+         <a className="frontend" href="https://github.com/Dev4long/Eat-lift-pray-frontend">Frontend Code</a>
+         <a className="backend" href="https://github.com/Dev4long/Eat-lift-pray-backend">Backend Code</a>
+         <a className="demo" href="https://www.loom.com/share/c6f9470169244e22923cc74d2ce2bbae">Demo Video</a>
+         </div>
         </div>
       </div>
    
