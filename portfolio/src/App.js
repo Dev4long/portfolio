@@ -4,12 +4,15 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import About from "./About";
 import Projects from "./Projects";
 import Resume from "./Resume";
-import Contact from "./Contact"
+import Contact from "./Contact";
+
+
 
 
 
 function App() {
   return (
+    
    <Router>
     <div>
       <Navbar />
@@ -21,6 +24,7 @@ function App() {
       </Routes>
     </div>
   </Router>
+  
    
   );
 }

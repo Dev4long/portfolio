@@ -3,15 +3,13 @@
 .projectContainer{
     width: 100%;
     height: 750px;
-    border: 15px solid rgb(0, 252, 4);
+    border: 2px solid rgb(0, 252, 4);
     padding: 75px;
-    margin-top: 200px;
+    margin-top: 140px;
     box-sizing: border-box;
     float: left;
     background-color: black;
     overflow: hidden;
-    
-    /* grid-template-columns: repeat(autp-fit, minmax(250px, 1fr)); */
 }
 
 .row {
@@ -120,11 +118,8 @@
     width:100%;
     height: 100%;
     position: absolute;
-    /* overflow: hidden; */
 }
 
-/* .projectImage {
-    border-radius: 100%;
-    width:100%;
-    height: 100%;
-} */
+.mainContainer{
+    overflow-y: scroll;
+}

@@ -5,10 +5,12 @@ import TheaterPic from "./ProjectPics/theaterPic.webp"
 import EatLiftPray from "./ProjectPics/eatLiftPray.png"
 import WhatsThat from "./ProjectPics/whatsThat.png"
 import BlackJack from "./ProjectPics/BlackJack.png"
+import ProjectDesciptions from "./ProjectDescriptions";
 
 
 function Projects() {
   return (
+    <div className="mainContainer">
     <div className="projectContainer">
   
      
@@ -82,10 +84,8 @@ function Projects() {
 
       </div>
       
-      {/* <div className="projectImage"></div>
-      <div className="projectImage"></div>
-      <div className="projectImage"></div>
-      <div className="projectImage"></div> */}
+    </div>
+    <ProjectDesciptions />
     </div>
   )
 }
