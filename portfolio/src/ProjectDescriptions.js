@@ -17,7 +17,19 @@ function ProjectDesciptions() {
      <h2 className="pTitle">Eat Lift Pray</h2>
      <div>
          An app designed for all. You can register yourself on this app to book personal trainer sessions with celebrities.
+         Pick a time and date to schedule any type of workout session with multiple different celebrities like the Rock, 
+         Sylvester Stalone, Arnold Schwarzenegger, and many more. If anything pops up you can always reschedule your sessions 
+         and modify the trainer you want as well as the type of workout you seek.
          
+     </div>
+     <h2 className="pTitle">WhatsThat</h2>
+     <div>
+        A recreation of whatsapp. Allows users to connect with others while sending real time messages across the platform. 
+     </div>
+     <h2 className="pTitle">BlackJack</h2>
+     <div>
+        One of the first projects that I ever created when I was attending the Flat Iron school coding bootcamp. 
+        This is a classic Blackjack game that you play and bet agaisnt the dealer.
      </div>
     </div>
   )
