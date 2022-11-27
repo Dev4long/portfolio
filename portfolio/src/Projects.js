@@ -13,7 +13,7 @@ function Projects() {
     <div className="mainContainer">
     <div className="projectContainer">
   
-     
+     <div className="PTitle">Projects</div>
       <div className="d1 row border first">
         
         <div className="front">
