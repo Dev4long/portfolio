@@ -1,0 +1,26 @@
+.ContactContainer{
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(0, 252, 4);
+    padding: 75px;
+    margin-top: 140px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    float: left;
+    background-color: black;
+    overflow: hidden;
+}
+
+.header{
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.linkInfo{
+    text-align: center;
+    font-size: x-large;
+    padding: 40px;
+}
