@@ -1,0 +1,29 @@
+.AboutContainer{
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(0, 252, 4);
+    padding: 75px;
+    margin-top: 140px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    float: left;
+    background-color: black;
+    overflow: hidden;
+}
+
+.DenisPic{
+    border-radius: 100%;
+    transform-style: preserve-3d;
+    border: 2px solid rgb(0, 252, 4);
+    margin-bottom: 50px;
+    
+}
+
+.picContainer{
+    text-align: center;
+}
+
+.Summary{
+    font-size: x-large;
+    font-weight: bold;
+}
