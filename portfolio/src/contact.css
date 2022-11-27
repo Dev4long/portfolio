@@ -14,7 +14,6 @@
 .header{
     text-align: center;
     font-size: xx-large;
-    text-decoration: underline;
     font-weight: bold;
     padding-bottom: 50px;
 }
@@ -23,4 +22,12 @@
     text-align: center;
     font-size: x-large;
     padding: 40px;
+    cursor: pointer;
+    margin: auto
+}
+.cell{
+    text-align: center;
+    font-size: x-large;
+    padding: 40px;
+    margin: auto
 }
