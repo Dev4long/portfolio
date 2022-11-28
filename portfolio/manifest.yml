@@ -1,0 +1,7 @@
+applications:
+  - name: DenisPortfolio
+memory: 64M
+path: build/
+buildpack: staticfile_buildpack 
+routes:
+  - route: DenisPortfolio.us-east.D5.DenisPortfolio.cloud
