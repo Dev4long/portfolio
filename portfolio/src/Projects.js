@@ -13,14 +13,19 @@ function Projects() {
     <div className="mainContainer">
     <div className="projectContainer">
   
-     <div className="PTitle">Projects</div>
+     {/* <div className="PTitle">Projects</div> */}
+     {/* <br></br> */}
       <div className="d1 row border first">
         
         <div className="front">
+        <h2 className = "projectTitle">Urban Riderz</h2>
         <img className="urbanRiderPic" src={UrbanRider} alt="urbanRider"/>
+        <a className="frontend" href="https://github.com/Dev4long/urban-riderz-frontend">Frontend Code</a>
+        <a className="backend" href="https://github.com/Dev4long/urban-riderz-backend">Backend Code</a>
+        <a className="demo" href="https://www.loom.com/share/961cb7d31ce749c59a6b3f273aaaf437d">Demo Video</a>
         </div>
         
-        <div className="back">
+        {/* <div className="back">
          <img className="theaterPic" src={TheaterPic} alt="theater"/>
          <h4 className = "projectTitle">Urban Riderz</h4>
          <div className="linkContainer">
@@ -28,7 +33,7 @@ function Projects() {
          <a className="backend" href="https://github.com/Dev4long/urban-riderz-backend">Backend Code</a>
          <a className="demo" href="https://www.loom.com/share/961cb7d31ce749c59a6b3f273aaaf437d">Demo Video</a>
          </div>
-        </div>
+        </div> */}
 
       </div>
     
