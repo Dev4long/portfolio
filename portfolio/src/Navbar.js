@@ -32,15 +32,15 @@ function Navbar() {
             <li className="navBar-toggle">
             <AiOutlineClose className="X"/>
             </li>
-            <li style={{style:"none"}}className="links">
-            <Link to="/" className="linksH">About</Link>
+            <li className="links">
+            <Link to="/" style={{textDecoration:"none"}} className="linksH">About</Link>
             </li>
             <li className="links">
-            <Link to="/projects" className="linksH">Projects</Link>
+            <Link to="/projects" style={{textDecoration:"none"}} className="linksH">Projects</Link>
             </li>
             <li className="links">
             {/* <Link to="/resume" className="links">Resume</Link> */}
-            <Link to="/contact" className="linksH">Contact</Link>
+            <Link to="/contact"style={{textDecoration:"none"}} className="linksH">Contact</Link>
             </li>
           </ul>
           </nav>

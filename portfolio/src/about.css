@@ -1,9 +1,9 @@
 .AboutContainer{
     width: 100%;
-    height: auto;
+    height: 100%;
     border: 2px solid rgb(0, 252, 4);
     padding: 75px;
-    margin-top: 140px;
+    margin-top: 90px;
     margin-bottom: 10px;
     box-sizing: border-box;
     float: left;
@@ -12,11 +12,10 @@
 }
 
 .DenisPic{
-    border-radius: 100%;
-    transform-style: preserve-3d;
+    border-radius: 25%;
     border: 2px solid rgb(0, 252, 4);
     margin-bottom: 50px;
-    
+    max-width: 100%;
 }
 
 .picContainer{

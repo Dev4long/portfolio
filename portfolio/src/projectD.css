@@ -1,16 +1,22 @@
 .projectDescriptionCont{
     width: 100%;
-    height: 900px;
+    height: 100%;
     border: 2px solid rgb(0, 252, 4);
     padding: 75px;
-    margin-top: 50px;
+    margin-top: 20px;
     box-sizing: border-box;
     float: left;
     background-color: black;
     overflow: hidden;
-    
+    /* text-align: center; */
 }
 
 .pTitle{
     text-align: center;
+    /* font-size: 2vw; */
+    
+}
+
+.description{
+    /* font-size: 2vw; */
 }
