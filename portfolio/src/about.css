@@ -23,6 +23,7 @@
 }
 
 .Summary{
-    font-size: x-large;
-    font-weight: bold;
+    /* font-size: x-large;
+    font-weight: bold; */
+    font-size: 2vh;
 }
