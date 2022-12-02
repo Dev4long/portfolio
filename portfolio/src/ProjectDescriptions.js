@@ -4,7 +4,7 @@ import './projectD.css'
 function ProjectDesciptions() {
   return (
     <div className='projectDescriptionCont'>
-     <h1>Project Descriptions</h1>
+     <h1 style={{fontSize:"x-large", fontWeight:"bold"}}>Project Descriptions</h1>
      <h2 style={{textDecoration:"underline"}} className="pTitle">Urban Riderz</h2>
      <div className="description">An app designed for bikers and skaters to meet up, connect and ride around the city together. 
           New users can register and every member has there own profile where they can upload there picture as well as a personal bio

@@ -8,15 +8,17 @@
     float: left;
     background-color: black;
     overflow: hidden;
-    /* text-align: center; */
+
 }
 
 .pTitle{
     text-align: center;
-    /* font-size: 2vw; */
+    font-size: x-large;
+    font-weight: bold;
     
 }
 
 .description{
-    /* font-size: 2vw; */
+    font-size: x-large;
+    font-weight: bold;
 }

@@ -42,7 +42,7 @@ function Contact() {
       <br></br>
       <br></br>
 
-      <a href="https://github.com/Dev4long">
+      <a href="https://docs.google.com/document/d/1V-uZyqN4Ezf79VfaXRuRdgBJwpSQ3c3J/edit?usp=sharing&rtpof=true&sd=true">
         <div className="linkInfo">
         <HiOutlineDocumentText size={84}/>
         <div className="linkHover">Resume</div>

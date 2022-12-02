@@ -18,7 +18,7 @@ function Projects() {
         <h4 className = "projectTitle">Urban Riderz</h4>
         <img className="urbanRiderPic" src={UrbanRider} alt="urbanRider"/>
         <div className="linkContainer">
-          
+
          <a style={{textDecoration:"none"}} className="frontend" href="https://github.com/Dev4long/urban-riderz-frontend">Frontend Code</a>
            
           
