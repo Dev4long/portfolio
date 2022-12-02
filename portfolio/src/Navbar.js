@@ -1,28 +1,50 @@
-import React from 'react'
+import React from 'react';
+import {useState} from 'react';
 import { Link } from "react-router-dom";
 import './navbar.css'
-
-
+import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
 
 
 function Navbar() {
+
+  const[sidebar, setBar] = useState(false)
+
+  const showBar = () => setBar(!sidebar)
+
+
   return (
     
     <div className= "navbar">
+    
     <div className="container">
-        <h1 className="name">DENIS KADRICH</h1>
+        <h2 className="name">DENIS KADRICH</h2>
         
        
         <div className="menu">
+        <AiOutlineMenu className="menuIcon" onClick={showBar} />
         
-          <nav>
-            <Link to="/" className="links">About</Link>
-            <Link to="/projects" className="links">Projects</Link>
-            {/* <Link to="/resume" className="links">Resume</Link> */}
-            <Link to="/contact" className="links">Contact</Link>
-          </nav>
           
+          
+          
+          <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+          <ul className= 'nav-menu-items' onClick={showBar}>
+            <li className="navBar-toggle">
+            <AiOutlineClose className="X"/>
+            </li>
+            <li className="links">
+            <Link to="/" style={{textDecoration:"none"}} className="linksH">About</Link>
+            </li>
+            <li className="links">
+            <Link to="/projects" style={{textDecoration:"none"}} className="linksH">Projects</Link>
+            </li>
+            <li className="links">
+            {/* <Link to="/resume" className="links">Resume</Link> */}
+            <Link to="/contact"style={{textDecoration:"none"}} className="linksH">Contact</Link>
+            </li>
+          </ul>
+          </nav>
+        
         
         </div>
         

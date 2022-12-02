@@ -1,14 +1,16 @@
 .ContactContainer{
     width: 100%;
-    height: auto;
+    height: 100%;
     border: 2px solid rgb(0, 252, 4);
-    padding: 75px;
-    margin-top: 140px;
+    margin-top: 90px;
     margin-bottom: 10px;
     box-sizing: border-box;
     float: left;
     background-color: black;
     overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    
 }
 
 .header{
@@ -21,7 +23,6 @@
 .linkInfo{
     text-align: center;
     font-size: x-large;
-    padding: 40px;
     cursor: pointer;
     margin: auto
 }
@@ -30,4 +31,11 @@
     font-size: x-large;
     padding: 40px;
     margin: auto
+}
+
+.linkHover:hover{
+    background-color: rgb(255, 0, 255);
+    border-radius: 99px;
+    padding: 10px 10px 10px 0px;
+    width: 100%
 }
