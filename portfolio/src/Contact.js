@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.css'
 import {AiFillGithub, AiFillLinkedin, AiOutlineMail, AiOutlinePhone} from 'react-icons/ai'
-
+import {HiOutlineDocumentText} from 'react-icons/hi'
 
 function Contact() {
   return (
@@ -37,6 +37,16 @@ function Contact() {
         <div style={{textDecoration: "underline"}}>Email:</div>
         <div className="linkHover">Deniskadrich69<br></br>@gmail.com</div>
       </div>
+      </a>
+
+      <br></br>
+      <br></br>
+
+      <a href="https://github.com/Dev4long">
+        <div className="linkInfo">
+        <HiOutlineDocumentText size={84}/>
+        <div className="linkHover">Resume</div>
+        </div>
       </a>
     
     </div>
