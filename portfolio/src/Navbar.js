@@ -1,12 +1,22 @@
 import React from 'react';
 import {useState} from 'react';
-import { Link } from "react-router-dom";
+import { Link, useNavigate} from "react-router-dom";
 import './navbar.css'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
 
 
 function Navbar() {
+
+  const navigate = useNavigate()
+
+  const handleClickP = () => {
+    navigate("/projects")
+  }
+
+  const handleClickC = () => {
+    navigate("/contact")
+  }
 
   const[sidebar, setBar] = useState(false)
 
@@ -36,9 +46,9 @@ function Navbar() {
             <Link to="/" style={{textDecoration:"none"}} className="linksH">About</Link>
             </li>
             <li className="links">
-            <Link to="/projects" style={{textDecoration:"none"}} className="linksH">Projects</Link>
+            <Link onClick={handleClickP} to="/projects" style={{textDecoration:"none"}} className="linksH">Projects</Link>
             </li>
-            <li className="links">
+            <li onClick={handleClickC} className="links">
             {/* <Link to="/resume" className="links">Resume</Link> */}
             <Link to="/contact"style={{textDecoration:"none"}} className="linksH">Contact</Link>
             </li>

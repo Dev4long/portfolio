@@ -27,7 +27,7 @@ function Contact() {
       <div className="cell">
         <AiOutlinePhone size={84}/>
         <div style={{textDecoration: "underline"}}>Cellphone number:</div>
-        <div className="linkHover">347-684-0897</div>
+        <div>347-684-0897</div>
       </div>
       
     
